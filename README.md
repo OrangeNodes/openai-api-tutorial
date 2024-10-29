@@ -22,3 +22,7 @@ Finally, run the Streamlit app:
 streamlit run chat.py
 ```
 
+## Extra references
+This repo is based on the tutorial which can be found over here: [link](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps).
+
+
