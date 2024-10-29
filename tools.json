@@ -1,0 +1,20 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "get_number_plus_one",
+            "description": "Get input number plus one.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "number": {
+                        "type": "integer",
+                        "description": "Number to be incremented."
+                    }
+                },
+                "required": ["number"],
+                "additionalProperties": false
+            }
+        }
+    }
+]
