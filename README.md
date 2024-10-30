@@ -19,10 +19,12 @@ OPENAI_API_KEY = "xxx"
 
 Finally, run the Streamlit app:
 ```bash
-streamlit run chat.py
+streamlit run chat_stream.py
 ```
 
 ## Extra references
 This repo is based on the tutorial which can be found over here: [link](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps).
+
+More info on calling functions are [here](https://platform.openai.com/docs/guides/function-calling).
 
 
