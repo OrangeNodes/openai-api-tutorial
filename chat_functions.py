@@ -4,12 +4,13 @@ import json
 
 import numpy as np
 
-st.title("ChatGPT-like clone")
+st.title("ChatGPT with increment-1 function")
 
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 # Arbitrary function to demonstrate that we can use Python code in the chat
 def get_number_plus_one(number: int) -> int:
+    print(f"Function called with number = {number}")
     return number + 1
 
 # If the user has not set the model, we will use the default one
